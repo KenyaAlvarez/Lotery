@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Title"
+        android:gravity="center" />
+    <TextView
+        android:text="your numbers is:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numbers"
+        android:gravity="center" />
+    <TextView
+        android:text="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numeros"
+        android:gravity="center" />
+    <Button
+        android:text="Yes"
+        android:id="@+id/si"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="No"
+        android:id="@+id/no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
