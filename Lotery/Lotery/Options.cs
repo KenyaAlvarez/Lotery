@@ -1,4 +1,4 @@
-﻿using Android.App;
+﻿                using Android.App;
 using Android.Widget;
 using Android.OS;
 
@@ -21,7 +21,7 @@ namespace Lotery
             };
 
             Button butn = FindViewById<Button>(Resource.Id.button2);
-            buton.Click += delegate
+            butn.Click += delegate
             {
                 StartActivity(typeof(MainSort));
             };
