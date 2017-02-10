@@ -21,7 +21,7 @@ namespace Lotery
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Sort1);
+            SetContentView(Resource.Layout.Sort2);
 
             NumberPicker Picker = FindViewById<NumberPicker>(Resource.Id.pickeruno);
             TextView n_one = FindViewById<TextView>(Resource.Id.text_1);
