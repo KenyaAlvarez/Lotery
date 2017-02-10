@@ -42,4 +42,24 @@ C:\Users\kenya\documents\visual studio 2015\Projects\Lotery\Lotery\obj\Debug\and
 C:\Users\kenya\documents\visual studio 2015\Projects\Lotery\Lotery\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\kenya\documents\visual studio 2015\Projects\Lotery\Lotery\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\kenya\documents\visual studio 2015\Projects\Lotery\Lotery\obj\Debug\Lotery.dll.mdb
-C:\Users\kenya\documents\visual studio 2015\Projects\Lotery\Lotery\bin\Debug\Lotery.dll.mdb
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\bin\Debug\Lotery.dll
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\bin\Debug\Lotery.pdb
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\bin\Debug\Lotery.Lotery.apk
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\bin\Debug\Lotery.Lotery-Signed.apk
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\Lotery.csprojResolveAssemblyReference.cache
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\Lotery.dll
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\Lotery.pdb
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\android\bin\Lotery.Lotery.apk
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\jugar.xml
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\sort1.xml
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\menu.xml
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\comprobacion.xml
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\sesion.xml
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\sort2.xml
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\inicio.xml
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\values\strings.xml
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\drawable\icon.png
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\R.cs.flag
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\uploadflags.txt
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\Lotery.dll.mdb
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\bin\Debug\Lotery.dll.mdb

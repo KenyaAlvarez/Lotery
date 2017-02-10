@@ -24,29 +24,21 @@ namespace Lotery
             SetContentView(Resource.Layout.Menu);
 
             Button boton = FindViewById<Button>(Resource.Id.btn);
+            boton.Click += delegate
+            {
+                StartActivity(typeof(SorteoUno));
+            };
+
             Button botonuno = FindViewById<Button>(Resource.Id.btnL2);
+            botonuno.Click += delegate
+            {
+                StartActivity(typeof(SorteoDos));
+            };
+
             Button botondos = FindViewById<Button>(Resource.Id.btnL3);
-
-            boton.Click += SorteoUno_selected;
-            botonuno.Click += SorteoUno_selected;
-            botondos.Click += SorteoUno_selected;
+            {
+                StartActivity(typeof(SorteoTres));
+            };
         }
-
-        private void SorteoUno_selected(object sender, EventArgs e)
-        {
-            var myIntent = new Intent(this, typeof(SorteoUno));
-            StartActivityForResult(myIntent, 0);
-        }
-        /*
-        private void SorteoDos_selected(object sender, EventArgs e)
-        {
-            StartActivity(typeof(SorteoDos));
-        }
-
-        private void SorteoTres_selected(object sender, EventArgs e)
-        {
-            StartActivity(typeof(SorteoTres));
-        }*/
-
     }
 }
