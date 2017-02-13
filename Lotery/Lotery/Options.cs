@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace Lotery
 {
-    [Activity(Label = "Lotery", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Lotery")]
     public class Options : Activity
     {
         protected override void OnCreate(Bundle bundle)

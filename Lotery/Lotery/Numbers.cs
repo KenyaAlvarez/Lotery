@@ -27,12 +27,14 @@ namespace Lotery
             numb.Text = Intent.GetStringExtra("Confirmation");
 
             Button yes = FindViewById<Button>(Resource.Id.si);
-
             Button No = FindViewById<Button>(Resource.Id.no);
 
-        }
+            yes.Click += OnYesAnswered;
+            No.Click += OnnoAnswered;
+        
+    }
 
-        private void OnNoAnswered(object sender, EventArgs e)
+        private void OnnoAnswered(object sender, EventArgs e)
         {
             Intent intent = new Intent(this, typeof(SorteoUno));
             StartActivity(intent);
@@ -41,6 +43,8 @@ namespace Lotery
 
         private void OnYesAnswered(object sender, EventArgs e)
         {
+            Intent intent = new Intent(this, typeof(Ticket));
+            StartActivity(intent);
             Finish();
         }
 

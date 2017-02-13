@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -11,16 +12,14 @@ using Android.Widget;
 
 namespace Lotery
 {
-    [Activity(Label = "SorteoTres")]
-    public class SorteoTres : Activity
+    [Activity(Label = "Ticket")]
+    public class Ticket : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            //(Resource.Layout.layout_SorteoTres);
-
         }
     }
 }

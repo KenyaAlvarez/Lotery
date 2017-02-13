@@ -3,71 +3,93 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+  <TextView
+       android:id="@+id/title_sort_one"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Selecciona 5 numeros:"
+       android:layout_gravity="center"
+       android:textSize="30sp"
+       android:gravity="center"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="10dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp" />
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="20dp"
+      android:gravity="center">
     <TextView
-        android:id="@+id/textview"
-        android:layout_width="match_parent"
+        android:id="@+id/text_1"
+        android:text="00"
         android:layout_height="wrap_content"
-        android:text="Selecciona 5 numeros:"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp" />
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:textSize="50dp"
+        android:layout_marginRight="5dp" />
+    <TextView
+        android:id="@+id/text_2"
+        android:text="00"
         android:layout_height="wrap_content"
-        android:gravity="center">
-        <TextView
-            android:id="@+id/text_1"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="00" />
-        <TextView
-            android:id="@+id/text_2"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content" />
-        <TextView
-            android:id="@+id/text_3"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="00" />
-        <TextView
-            android:id="@+id/text_4"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content" />
-        <TextView
-            android:id="@+id/text_5"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content" />
-    </LinearLayout>
-    <LinearLaoyout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:textSize="50dp"
+        android:layout_marginRight="5dp" />
+    <TextView
+        android:id="@+id/text_3"
+        android:text="00"
         android:layout_height="wrap_content"
-        android:gravity="center" />
+        android:layout_width="wrap_content"
+        android:textSize="50dp"
+        android:layout_marginRight="5dp" />
+    <TextView
+        android:id="@+id/text_4"
+        android:text="00"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="50dp"
+        android:layout_marginRight="5dp" />
+    <TextView
+        android:id="@+id/text_5"
+        android:text="00"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="50dp" />
+  </LinearLayout>
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_marginTop="15dp"
+      android:layout_marginBottom="15dp">
     <NumberPicker
         android:id="@+id/pickeruno"
         android:layout_width="wrap_content"
-        android_layout_height="wrap_content" />
+        android:layout_height="wrap_content" />
     <NumberPicker
         android:id="@+id/pickerdos"
         android:layout_width="wrap_content"
-        android_layout_height="wrap_content" />
+        android:layout_height="wrap_content" />
     <NumberPicker
         android:id="@+id/pickertres"
         android:layout_width="wrap_content"
-        android_layout_height="wrap_content" />
+        android:layout_height="wrap_content" />
     <NumberPicker
         android:id="@+id/pickercuatro"
         android:layout_width="wrap_content"
-        android_layout_height="wrap_content" />
+        android:layout_height="wrap_content" />
     <NumberPicker
-        android:id="@+id/pickercinco"
+        android:id="@+id/picker_cinco"
         android:layout_width="wrap_content"
-        android_layout_height="wrap_content" />
-    <Button
-        android:id="@+id/confirm"
-        android:hint="Confirm"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp" />
+        android:layout_height="wrap_content" />
+  </LinearLayout>
+  <Button
+      android:id="@+id/confirm"
+      android:hint="Confirm"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp" />
 </LinearLayout>

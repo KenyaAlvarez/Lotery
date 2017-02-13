@@ -26,3 +26,7 @@ Lotery.SorteoUno, Lotery;md5215426faa127788568430db30409ee4d.SorteoUno
 Lotery.SorteoUno, Lotery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5215426faa127788568430db30409ee4d.SorteoUno
 Lotery.SorteoUno;md5215426faa127788568430db30409ee4d.SorteoUno
 lotery.SorteoUno;md5215426faa127788568430db30409ee4d.SorteoUno
+Lotery.Ticket, Lotery;md5215426faa127788568430db30409ee4d.Ticket
+Lotery.Ticket, Lotery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5215426faa127788568430db30409ee4d.Ticket
+Lotery.Ticket;md5215426faa127788568430db30409ee4d.Ticket
+lotery.Ticket;md5215426faa127788568430db30409ee4d.Ticket

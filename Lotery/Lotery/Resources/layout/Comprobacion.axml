@@ -9,12 +9,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/Title"
         android:gravity="center" />
+  
     <TextView
         android:text="your numbers is:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/numbers"
         android:gravity="center" />
+  
     <TextView
         android:text="0"
         android:layout_width="match_parent"

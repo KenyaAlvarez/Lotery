@@ -85,7 +85,7 @@ namespace Lotery
 			public const int confirm = 2131034137;
 			
 			// aapt resource value: 0x7f050007
-			public const int jugar = 2131034119;
+			public const int menu = 2131034119;
 			
 			// aapt resource value: 0x7f050004
 			public const int no = 2131034116;
@@ -100,7 +100,7 @@ namespace Lotery
 			public const int pass = 2131034124;
 			
 			// aapt resource value: 0x7f050018
-			public const int pickercinco = 2131034136;
+			public const int picker_cinco = 2131034136;
 			
 			// aapt resource value: 0x7f050017
 			public const int pickercuatro = 2131034135;
@@ -133,7 +133,7 @@ namespace Lotery
 			public const int text_5 = 2131034131;
 			
 			// aapt resource value: 0x7f05000e
-			public const int textview = 2131034126;
+			public const int title_sort_one = 2131034126;
 			
 			// aapt resource value: 0x7f05000b
 			public const int usuario = 2131034123;
@@ -158,19 +158,13 @@ namespace Lotery
 			public const int Inicio = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Jugar = 2130903042;
+			public const int Menu = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Menu = 2130903043;
+			public const int Sesion = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Sesion = 2130903044;
-			
-			// aapt resource value: 0x7f030005
-			public const int Sort1 = 2130903045;
-			
-			// aapt resource value: 0x7f030006
-			public const int Sort2 = 2130903046;
+			public const int Sort1 = 2130903044;
 			
 			static Layout()
 			{
