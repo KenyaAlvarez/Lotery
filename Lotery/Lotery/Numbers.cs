@@ -23,9 +23,8 @@ namespace Lotery
 
             SetContentView(Resource.Layout.Comprobacion);
 
-            TextView numb = FindViewById<TextView>(Resource.Id.numeros);
-            numb.Text = Intent.GetStringExtra("Confirmation");
-
+            TextView tittle = FindViewById<TextView>(Resource.Id.numeros);
+           tittle.Text = Intent.GetStringExtra ("confirmacion");
             Button yes = FindViewById<Button>(Resource.Id.si);
             Button No = FindViewById<Button>(Resource.Id.no);
 

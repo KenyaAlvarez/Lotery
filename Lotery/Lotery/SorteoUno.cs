@@ -79,7 +79,7 @@ namespace Lotery
                 num_five = picker5.Value.ToString();
                 result = num_one + num_two + num_three + num_for + num_five;
                 Intent intent = new Intent(this, typeof(Numbers));
-                intent.PutExtra("confirmation", result);
+                intent.PutExtra("confirmacion", result);
                 StartActivity(intent);
                 Finish();
             };
