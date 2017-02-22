@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Name:******"
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <TextView
+        android:text="Sort:******"
+        android:id="@+id/sorteo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <TextView
+        android:text="Date:****** "
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <TextView
+        android:text="Ticket:******"
+        android:id="@+id/boleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <TextView
+        android:text="Su combinación:"
+        android:id="@+id/combinacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <Button
+        android:text="Hecho"
+        android:id="@+id/btnhecho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp" />
+</LinearLayout>

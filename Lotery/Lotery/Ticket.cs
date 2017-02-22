@@ -20,6 +20,20 @@ namespace Lotery
             base.OnCreate(savedInstanceState);
 
             // Create your application here
+
+            SetContentView(Resource.Layout.Recibo);
+
+            TextView Nombre = FindViewById<TextView>(Resource.Id.nombre);
+
+            TextView Sorteo = FindViewById<TextView>(Resource.Id.sorteo);
+
+            TextView Fecha = FindViewById<TextView>(Resource.Id.fecha);
+
+            TextView Boleto = FindViewById<TextView>(Resource.Id.boleto);
+
+            TextView Combinacion = FindViewById<TextView>(Resource.Id.combinacion);
+
+           
         }
     }
 }
