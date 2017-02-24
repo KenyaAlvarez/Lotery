@@ -2,6 +2,7 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <AndroidDesignerPreferredDevice>3.7 FWVGA slider</AndroidDesignerPreferredDevice>
-    <SelectedDevice>HUAWEI Y625-U13</SelectedDevice>
+    <SelectedDevice>Motorola MotoE2</SelectedDevice>
+    <DefaultDevice>AVD_GalaxyNexus_ToolsForApacheCordova</DefaultDevice>
   </PropertyGroup>
 </Project>
