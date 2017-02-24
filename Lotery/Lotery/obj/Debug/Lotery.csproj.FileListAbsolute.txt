@@ -85,4 +85,47 @@ C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\android\assets\Sy
 C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\recibo.xml
 C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\Lotery.dll.mdb
-C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\bin\Debug\Lotery.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\Lotery.dll
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\Lotery.pdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\Lotery.Lotery.apk
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\Lotery.Lotery-Signed.apk
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\Lotery.csprojResolveAssemblyReference.cache
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\Lotery.dll
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\Lotery.pdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\bin\Lotery.Lotery.apk
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\res\layout\sort1.xml
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\res\layout\menu.xml
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\res\layout\comprobacion.xml
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\res\layout\sesion.xml
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\res\layout\inicio.xml
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\res\values\strings.xml
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\res\drawable\icon.png
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\R.cs.flag
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\uploadflags.txt
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\Java.Interop.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\Lotery.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\Mono.Android.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\mscorlib.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\System.ComponentModel.Composition.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\System.Core.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\System.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\System.Net.Http.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\System.Runtime.Serialization.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\System.ServiceModel.Internals.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\System.Xml.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\System.Xml.Linq.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\Java.Interop.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\Lotery.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\Mono.Android.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\mscorlib.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.Core.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.Net.Http.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.Xml.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\res\drawable\sign_in_lotery.png
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\Lotery.dll.mdb
+E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\Lotery.dll.mdb
