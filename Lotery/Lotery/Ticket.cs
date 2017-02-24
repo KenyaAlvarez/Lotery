@@ -32,7 +32,7 @@ namespace Lotery
             TextView Boleto = FindViewById<TextView>(Resource.Id.boleto);
 
             TextView Combinacion = FindViewById<TextView>(Resource.Id.combinacion);
-        
+
            
         }
     }
