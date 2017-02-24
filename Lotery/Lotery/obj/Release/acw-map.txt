@@ -2,6 +2,10 @@ Lotery.Loggin, Lotery;md5215426faa127788568430db30409ee4d.Loggin
 Lotery.Loggin, Lotery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5215426faa127788568430db30409ee4d.Loggin
 Lotery.Loggin;md5215426faa127788568430db30409ee4d.Loggin
 lotery.Loggin;md5215426faa127788568430db30409ee4d.Loggin
+Lotery.SecondSort, Lotery;md5215426faa127788568430db30409ee4d.SecondSort
+Lotery.SecondSort, Lotery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5215426faa127788568430db30409ee4d.SecondSort
+Lotery.SecondSort;md5215426faa127788568430db30409ee4d.SecondSort
+lotery.SecondSort;md5215426faa127788568430db30409ee4d.SecondSort
 Lotery.SorteoSeis, Lotery;md5215426faa127788568430db30409ee4d.SorteoSeis
 Lotery.SorteoSeis, Lotery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5215426faa127788568430db30409ee4d.SorteoSeis
 Lotery.SorteoSeis;md5215426faa127788568430db30409ee4d.SorteoSeis

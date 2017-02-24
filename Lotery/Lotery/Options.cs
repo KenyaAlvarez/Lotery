@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace Lotery
 {
-    [Activity(Label = "Lotery")]
+    [Activity(Label = "Loteria")]
     public class Options : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -14,16 +14,16 @@ namespace Lotery
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Inicio);
 
-            Button buton = FindViewById<Button>(Resource.Id.button1);
+            Button buton = FindViewById<Button>(Resource.Id.button_LNacional);
             buton.Click += delegate
             {
                 StartActivity(typeof(MainSort));
             };
 
-            Button butn = FindViewById<Button>(Resource.Id.button2);
+            Button butn = FindViewById<Button>(Resource.Id.button_pronosticos);
             butn.Click += delegate
             {
-                StartActivity(typeof(MainSort));
+                StartActivity(typeof(SecondSort));
             };
         }
     }

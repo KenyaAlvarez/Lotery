@@ -21,73 +21,68 @@ namespace Lotery
 
             // Create your application here
             SetContentView(Resource.Layout.Sort2);
-            var txtcero = FindViewById<TextView>(Resource.Id.text0);
+            //var txtcero = FindViewById<TextView>(Resource.Id.text0);
 
-            var txt = FindViewById<TextView>(Resource.Id.text1);
-            var numberpicker = FindViewById<NumberPicker>(Resource.Id.Pickeruno);
 
-            numberpicker.MinValue = 1;
-            numberpicker.MaxValue = 52;
+            var picker_one_s2 = FindViewById<NumberPicker>(Resource.Id.pickeruno_s2);
+            var picker_two_s2 = FindViewById<NumberPicker>(Resource.Id.pickerdos_s2);
+            var picker_three_s2 = FindViewById<NumberPicker>(Resource.Id.pickertres_s2);
+            var picker_four_s2 = FindViewById<NumberPicker>(Resource.Id.pickercuatro_s2);
+            var picker_five_s2 = FindViewById<NumberPicker>(Resource.Id.pickercinco_s2);
 
-            numberpicker.ValueChanged += (sender, args) =>
+            var txt_one_s2 = FindViewById<TextView>(Resource.Id.text_1_s2);
+            var txt_two_s2 = FindViewById<TextView>(Resource.Id.text_2_s2);
+            var txt_three_s2 = FindViewById<TextView>(Resource.Id.text_3_s2);
+            var txt_four_s2 = FindViewById<TextView>(Resource.Id.text_4_s2);
+            var txt_five_s2 = FindViewById<TextView>(Resource.Id.text_5_s2);
+
+            picker_one_s2.MinValue = 1;
+            picker_one_s2.MaxValue = 52;
+            picker_two_s2.MinValue = 1;
+            picker_two_s2.MaxValue = 52;
+            picker_three_s2.MinValue = 1;
+            picker_three_s2.MaxValue = 52;
+            picker_four_s2.MinValue = 1;
+            picker_four_s2.MaxValue = 52;
+            picker_five_s2.MinValue = 1;
+            picker_five_s2.MaxValue = 52;
+
+            picker_one_s2.ValueChanged += (sender, args) =>
             {
-                txt.Text = args.NewVal.ToString();
+                txt_one_s2.Text = args.NewVal.ToString();
             };
 
-            var txtdos = FindViewById<TextView>(Resource.Id.text2);
-            var number = FindViewById<NumberPicker>(Resource.Id.Pickerdos);
-
-            number.MinValue = 1;
-            number.MaxValue = 52;
-
-            number.ValueChanged += (sender, args) =>
+            picker_two_s2.ValueChanged += (sender, args) =>
             {
-                txtdos.Text = args.NewVal.ToString();
+                txt_two_s2.Text = args.NewVal.ToString();
             };
 
-            var texttres = FindViewById<TextView>(Resource.Id.text3);
-            var numbertres = FindViewById<NumberPicker>(Resource.Id.Pickertres);
-
-            numbertres.MinValue = 1;
-            numbertres.MaxValue = 52;
-
-            numbertres.ValueChanged += (sender, args) =>
+            picker_three_s2.ValueChanged += (sender, args) =>
             {
-                texttres.Text = args.NewVal.ToString();
+                txt_three_s2.Text = args.NewVal.ToString();
             };
 
-            var txtcuatro = FindViewById<TextView>(Resource.Id.text4);
-            var numbercuatro = FindViewById<NumberPicker>(Resource.Id.Pickercuatro);
-
-            numbercuatro.MinValue = 1;
-            numbercuatro.MaxValue = 52;
-
-            numbercuatro.ValueChanged += (sender, args) =>
+            picker_four_s2.ValueChanged += (sender, args) =>
             {
-                txtcuatro.Text = args.NewVal.ToString();
+                txt_four_s2.Text = args.NewVal.ToString();
             };
 
-            var txtcinco = FindViewById<TextView>(Resource.Id.text5);
-            var numbercinco = FindViewById<NumberPicker>(Resource.Id.Pickercinco);
-
-            numbercinco.MinValue = 1;
-            numbercinco.MaxValue = 52;
-
-            numbercinco.ValueChanged += (sender, args) =>
+            picker_five_s2.ValueChanged += (sender, args) =>
             {
-                txtcinco.Text = args.NewVal.ToString();
+                txt_five_s2.Text = args.NewVal.ToString();
             };
 
-            Button confirm_btn = FindViewById<Button>(Resource.Id.confirm);
+            Button confirm_btn = FindViewById<Button>(Resource.Id.confirm_s2);
 
             confirm_btn.Click += (sender, args) =>
             {
                 string uno, dos, tres, cuatro, cinco, result;
-                uno = numberpicker.Value.ToString();
-                dos = number.Value.ToString();
-                tres = numbertres.Value.ToString();
-                cuatro = numbercuatro.Value.ToString();
-                cinco = numbercinco.Value.ToString();
+                uno = picker_one_s2.Value.ToString();
+                dos = picker_two_s2.Value.ToString();
+                tres = picker_three_s2.Value.ToString();
+                cuatro = picker_four_s2.Value.ToString();
+                cinco = picker_five_s2.Value.ToString();
+
                 result = uno + dos + tres + cuatro + cinco;
                 Intent intent = new Intent(this, typeof(Numbers));
                 intent.PutExtra("confirmacion", result);

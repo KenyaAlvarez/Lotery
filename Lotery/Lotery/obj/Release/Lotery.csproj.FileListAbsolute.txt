@@ -39,5 +39,7 @@ C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Re
 C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Core.dll.mdb
 C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.dll.mdb
 C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\Lotery.csprojResolveAssemblyReference.cache
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\res\layout\menu_pronosticos.xml
 C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\Lotery.dll.mdb
 C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\bin\Release\Lotery.dll.mdb

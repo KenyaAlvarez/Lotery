@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Loggin.cs" />
+    <Compile Include="SecondSort.cs" />
     <Compile Include="SorteoSeis.cs" />
     <Compile Include="SorteoCinco.cs" />
     <Compile Include="SorteoCuatro.cs" />
@@ -96,6 +97,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Sort6.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Menu_Pronosticos.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

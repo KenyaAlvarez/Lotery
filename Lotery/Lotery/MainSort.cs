@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Lotery
 {
-    [Activity(Label = "SorteoUno")]
+    [Activity(Label = "Loteria Nacional")]
     public class MainSort : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -26,13 +26,13 @@ namespace Lotery
             TextView title = FindViewById<TextView>(Resource.Id.menu);
             title.Text = "Welcome " + Intent.GetStringExtra("username");
 
-            Button boton = FindViewById<Button>(Resource.Id.btn);
-            Button botton = FindViewById<Button>(Resource.Id.btnL2);
-            Button Buton = FindViewById<Button>(Resource.Id.btnL3);
+            Button button_one = FindViewById<Button>(Resource.Id.btn);
+            Button button_two = FindViewById<Button>(Resource.Id.btnL2);
+            Button button_three = FindViewById<Button>(Resource.Id.btnL3);
 
-            boton.Click += SorteoUno_selected;
-            botton.Click += SorteoUno_selected;
-            Buton.Click += SorteoUno_selected;
+            button_one.Click += SorteoUno_selected;
+            button_two.Click += SorteoTwo_selected;
+            button_three.Click += SorteoTree_selected;
         }
 
         private void SorteoUno_selected(object sender, EventArgs e)
@@ -40,5 +40,17 @@ namespace Lotery
             var myIntent = new Intent(this, typeof(SorteoUno));
             StartActivityForResult(myIntent, 0);
         }
+
+        private void SorteoTwo_selected(object sender, EventArgs e)
+        {
+            var myIntent = new Intent(this, typeof(SorteoDos));
+            StartActivityForResult(myIntent, 0);
+        }
+
+        private void SorteoTree_selected(object sender, EventArgs e)
+        {
+            var myIntent = new Intent(this, typeof(SorteoTres));
+            StartActivityForResult(myIntent, 0);
+        }
     }
-    }
+}

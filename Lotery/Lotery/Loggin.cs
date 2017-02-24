@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Lotery
 {
-    [Activity(Label = "Lotery", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Inicio de Sesion", MainLauncher = true, Icon = "@drawable/icon"),]
     public class Loggin : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -33,6 +33,5 @@ namespace Lotery
                 StartActivity(typeof(Options));
             };
         }
-
     }
-    }
+}

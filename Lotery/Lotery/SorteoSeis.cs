@@ -18,7 +18,7 @@ namespace Lotery
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
+            SetContentView(Resource.Layout.Sort6);
             // Create your application here
             var view = FindViewById<TextView>(Resource.Id.numbers);
 
