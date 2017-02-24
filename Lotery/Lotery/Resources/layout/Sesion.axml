@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
     <EditText
         android:id="@+id/usuario"
-        android:hint="Write your User"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:hint="Usuario"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:ellipsize="none"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/black" />
     <EditText
         android:id="@+id/pass"
-        android:hint="Write your Password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:hint="Contraseña"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:password="true"
+        android:background="@android:color/background_light"
+        android:ellipsize="none"
+        android:textColor="@android:color/black" />
     <Button
         android:id="@+id/access"
-        android:text="Sign in"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:textSize="20sp" />
+        android:text="Ingresar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@android:color/holo_green_light"
+        android:layout_marginTop="250dp" />
 </RelativeLayout>
