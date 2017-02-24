@@ -83,6 +83,7 @@ C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\android\assets\Sy
 C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\recibo.xml
 C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\Lotery.dll.mdb
 E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\Lotery.dll
 E:\_Job\Clients Projs\Lotery\Lotery\Lotery\bin\Debug\Lotery.pdb
