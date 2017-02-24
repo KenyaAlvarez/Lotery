@@ -43,7 +43,7 @@ namespace Lotery
         private void OnYesAnswered(object sender, EventArgs e)
         {
             Intent intent = new Intent(this, typeof(Ticket));
-            StartActivityForResult(intent,0);
+            StartActivity(intent);
             Finish();
         }
 
