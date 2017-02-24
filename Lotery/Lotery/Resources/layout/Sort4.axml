@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:id="@+id/title_sort_one"
+        android:id="@+id/zero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Selecciona 5 numeros:"
         android:layout_gravity="center"
-        android:textSize="10sp"
+        android:textSize="30sp"
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
     <RelativeLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -22,65 +21,65 @@
         android:layout_margin="20dp"
         android:gravity="center">
         <TextView
-            android:id="@+id/text_1"
+            android:id="@+id/one"
             android:text="00"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:textSize="50dp"
             android:layout_marginRight="5dp" />
         <TextView
-            android:id="@+id/text_2"
+            android:id="@+id/two"
             android:text="00"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:textSize="50dp"
             android:layout_marginRight="5dp" />
         <TextView
-            android:id="@+id/text_3"
+            android:id="@+id/three"
             android:text="00"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:textSize="50dp"
             android:layout_marginRight="5dp" />
         <TextView
-            android:id="@+id/text_4"
+            android:id="@+id/four"
             android:text="00"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:textSize="50dp"
             android:layout_marginRight="5dp" />
         <TextView
-            android:id="@+id/text_5"
+            android:id="@+id/five"
             android:text="00"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:textSize="50dp" />
     </RelativeLayout>
     <RelativeLayout
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp">
         <NumberPicker
-            android:id="@+id/pickeruno"
+            android:id="@+id/N_uno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <NumberPicker
-            android:id="@+id/pickerdos"
+            android:id="@+id/N_dos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <NumberPicker
-            android:id="@+id/pickertres"
+            android:id="@+id/N_tres"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <NumberPicker
-            android:id="@+id/pickercuatro"
+            android:id="@+id/N_cuatro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <NumberPicker
-            android:id="@+id/picker_cinco"
+            android:id="@+id/N_cinco"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </RelativeLayout>
@@ -90,6 +89,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_gravity="center" />
+        android:layout_marginRight="20dp" />
 </RelativeLayout>

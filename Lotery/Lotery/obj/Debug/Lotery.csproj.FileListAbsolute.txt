@@ -128,5 +128,10 @@ E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\android\assets\System.Xml.L
 E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\res\drawable\sign_in_lotery.png
 E:\_Job\Clients Projs\Lotery\Lotery\Lotery\obj\Debug\Lotery.dll.mdb
 C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\drawable\sign_in_lotery.png
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\sort2.xml
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\sort3.xml
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\sort4.xml
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\sort5.xml
+C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\res\layout\sort6.xml
 C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\obj\Debug\Lotery.dll.mdb
 C:\Users\kenya\Documents\GitHub\Lotery\Lotery\Lotery\bin\Debug\Lotery.dll.mdb

@@ -52,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Loggin.cs" />
+    <Compile Include="SorteoSeis.cs" />
+    <Compile Include="SorteoCinco.cs" />
+    <Compile Include="SorteoCuatro.cs" />
     <Compile Include="SorteoDos.cs" />
     <Compile Include="SorteoTres.cs" />
     <Compile Include="Options.cs" />
@@ -78,6 +81,21 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Recibo.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Sort2.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Sort3.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Sort4.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Sort5.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Sort6.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

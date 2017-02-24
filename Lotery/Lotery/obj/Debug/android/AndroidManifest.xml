@@ -11,6 +11,9 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="SorteoSeis" android:name="md5215426faa127788568430db30409ee4d.SorteoSeis" />
+    <activity android:label="SorteoCinco" android:name="md5215426faa127788568430db30409ee4d.SorteoCinco" />
+    <activity android:label="SorteoCuatro" android:name="md5215426faa127788568430db30409ee4d.SorteoCuatro" />
     <activity android:label="SorteoDos" android:name="md5215426faa127788568430db30409ee4d.SorteoDos" />
     <activity android:label="SorteoTres" android:name="md5215426faa127788568430db30409ee4d.SorteoTres" />
     <activity android:label="Lotery" android:name="md5215426faa127788568430db30409ee4d.Options" />
