@@ -2,8 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_light">
+    android:background="@drawable/bg_start">
     <TextView
+        android:textColor="@android:color/holo_red_dark"
         android:text="Usuario:"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
@@ -12,6 +13,7 @@
         android:layout_marginTop="100dp"
         android:layout_marginLeft="25dp" />
     <TextView
+        android:textColor="@android:color/holo_red_dark"
         android:text="Sorteo:"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
@@ -20,6 +22,7 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="125dp" />
     <TextView
+        android:textColor="@android:color/holo_red_dark"
         android:text="Date:"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
@@ -28,6 +31,7 @@
         android:layout_marginTop="150dp"
         android:layout_marginLeft="25dp" />
     <TextView
+        android:textColor="@android:color/holo_red_dark"
         android:text="Ticket:"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
@@ -36,6 +40,7 @@
         android:layout_marginTop="175dp"
         android:layout_marginLeft="25dp" />
     <TextView
+        android:textColor="@android:color/holo_red_dark"
         android:text="Su combinación:"
         android:layout_width="125dp"
         android:layout_height="wrap_content"
@@ -62,8 +67,10 @@
         android:textStyle="bold"
         android:textSize="15sp"
         android:layout_marginTop="100dp"
-        android:layout_marginLeft="150dp" />
+        android:layout_marginLeft="150dp"
+        android:textColor="@android:color/holo_red_dark" />
     <TextView
+        android:textColor="@android:color/holo_red_dark"
         android:text="Sorteo:"
         android:id="@+id/sorteo"
         android:layout_width="wrap_content"
@@ -74,6 +81,7 @@
         android:layout_marginTop="125dp" />
     <TextView
         android:text="Date:"
+        android:textColor="@android:color/holo_red_dark"
         android:id="@+id/fecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -83,6 +91,7 @@
         android:layout_marginLeft="150dp" />
     <TextView
         android:text="Ticket:"
+        android:textColor="@android:color/holo_red_dark"
         android:id="@+id/boleto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -91,6 +100,7 @@
         android:layout_marginTop="175dp"
         android:layout_marginLeft="150dp" />
     <TextView
+        android:textColor="@android:color/holo_red_dark"
         android:text="Su combinación:"
         android:id="@+id/combinacion"
         android:layout_width="wrap_content"

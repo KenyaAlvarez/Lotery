@@ -23,9 +23,6 @@ namespace Lotery
 
             SetContentView(Resource.Layout.Menu);
 
-            TextView title = FindViewById<TextView>(Resource.Id.menu);
-            title.Text = "Welcome " + Intent.GetStringExtra("username");
-
             Button button_one = FindViewById<Button>(Resource.Id.btn_1);
             Button button_two = FindViewById<Button>(Resource.Id.btn_2);
             Button button_three = FindViewById<Button>(Resource.Id.btn_3);
