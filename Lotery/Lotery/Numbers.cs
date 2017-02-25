@@ -24,31 +24,30 @@ namespace Lotery
             SetContentView(Resource.Layout.Comprobacion);
 
             TextView tittle = FindViewById<TextView>(Resource.Id.numeros);
-            tittle.Text = Intent.GetStringExtra ("confirmacion");
+            tittle.Text = Intent.GetStringExtra("confirmacion");
             Button yes = FindViewById<Button>(Resource.Id.si);
             Button No = FindViewById<Button>(Resource.Id.no);
 
             yes.Click += OnYesAnswered;
             No.Click += OnnoAnswered;
 
-    }
+        }
 
         private void OnnoAnswered(object sender, EventArgs e)
         {
+            Toast.MakeText(this, "Proceso Cancelado", ToastLength.Short).Show();
             Finish();
         }
 
         private void OnYesAnswered(object sender, EventArgs e)
         {
+            Toast.MakeText(this, "Procesando...", ToastLength.Short).Show();
             string no_ticky = FindViewById<TextView>(Resource.Id.numeros).Text;
             Intent intent = new Intent(this, typeof(Ticket));
             intent.PutExtra("n_to_ticket", no_ticky);
-            StartActivityForResult(intent,0);
+            StartActivityForResult(intent, 0);
             Finish();
         }
-
-
     }
-
 }
 

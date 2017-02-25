@@ -1,0 +1,17 @@
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\Lotery.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\Java.Interop.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\Mono.Android.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\mscorlib.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Core.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Threading.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Runtime.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Collections.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Collections.Concurrent.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Diagnostics.Debug.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Reflection.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Linq.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Runtime.InteropServices.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Runtime.Extensions.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Reflection.Extensions.dll
+C:\Users\artur\Documents\Visual Studio 2015\Projects\Lotery\Lotery\Lotery\obj\Release\android\assets\System.Runtime.Serialization.dll
