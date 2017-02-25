@@ -5,7 +5,6 @@
     android:background="@android:color/holo_orange_light">
     <TextView
         android:text="Usuario:"
-        android:id="@+id/nombre"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -14,7 +13,6 @@
         android:layout_marginLeft="25dp" />
     <TextView
         android:text="Sorteo:"
-        android:id="@+id/sorteo"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -23,7 +21,6 @@
         android:layout_marginTop="125dp" />
     <TextView
         android:text="Date:"
-        android:id="@+id/fecha"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -32,7 +29,6 @@
         android:layout_marginLeft="25dp" />
     <TextView
         android:text="Ticket:"
-        android:id="@+id/boleto"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -41,7 +37,6 @@
         android:layout_marginLeft="25dp" />
     <TextView
         android:text="Su combinación:"
-        android:id="@+id/combinacion"
         android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -59,4 +54,49 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="250dp"
         android:background="@android:color/holo_blue_bright" />
+    <TextView
+        android:text="Usuario:"
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp" />
+    <TextView
+        android:text="Sorteo:"
+        android:id="@+id/sorteo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="125dp" />
+    <TextView
+        android:text="Date:"
+        android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="150dp" />
+    <TextView
+        android:text="Ticket:"
+        android:id="@+id/boleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="150dp" />
+    <TextView
+        android:text="Su combinación:"
+        android:id="@+id/combinacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp" />
 </RelativeLayout>

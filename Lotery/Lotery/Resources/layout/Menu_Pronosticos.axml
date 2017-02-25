@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_light">
+    android:background="@drawable/bg_pronosticos_3">
     <TextView
         android:layout_width="match_parent"
         android:id="@+id/menu"
@@ -11,24 +11,24 @@
         android:textSize="15sp"
         android:layout_height="wrap_content" />
     <Button
-        android:text="Melate Retro"
         android:id="@+id/btn_4"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="25dp" />
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/btn_retro" />
     <Button
-        android:text="Melate"
         android:id="@+id/btn_5"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="175dp" />
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="175dp"
+        android:background="@drawable/bnt_melate" />
     <Button
-        android:text="Chispazo"
         android:id="@+id/btn_6"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="175dp"
-        android:layout_marginLeft="25dp" />
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/btn_chispazo" />
 </RelativeLayout>

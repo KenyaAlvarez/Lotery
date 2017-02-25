@@ -10,15 +10,15 @@
       </intent-filter>
     </activity>
     <activity android:label="Pronosticos" android:name="md5215426faa127788568430db30409ee4d.SecondSort" />
-    <activity android:label="SorteoSeis" android:name="md5215426faa127788568430db30409ee4d.SorteoSeis" />
-    <activity android:label="SorteoCinco" android:name="md5215426faa127788568430db30409ee4d.SorteoCinco" />
-    <activity android:label="SorteoCuatro" android:name="md5215426faa127788568430db30409ee4d.SorteoCuatro" />
-    <activity android:label="SorteoDos" android:name="md5215426faa127788568430db30409ee4d.SorteoDos" />
-    <activity android:label="SorteoTres" android:name="md5215426faa127788568430db30409ee4d.SorteoTres" />
+    <activity android:label="Chispazo" android:name="md5215426faa127788568430db30409ee4d.SorteoSeis" />
+    <activity android:label="Melate" android:name="md5215426faa127788568430db30409ee4d.SorteoCinco" />
+    <activity android:label="Melate Retro" android:name="md5215426faa127788568430db30409ee4d.SorteoCuatro" />
+    <activity android:label="Sorteo Magno" android:name="md5215426faa127788568430db30409ee4d.SorteoDos" />
+    <activity android:label="Sorteo Mayor" android:name="md5215426faa127788568430db30409ee4d.SorteoTres" />
     <activity android:label="Loteria" android:name="md5215426faa127788568430db30409ee4d.Options" />
     <activity android:label="Numbers" android:name="md5215426faa127788568430db30409ee4d.Numbers" />
     <activity android:label="Loteria Nacional" android:name="md5215426faa127788568430db30409ee4d.MainSort" />
-    <activity android:label="Sorteo" android:name="md5215426faa127788568430db30409ee4d.SorteoUno" />
+    <activity android:label="Sorteo Especial" android:name="md5215426faa127788568430db30409ee4d.SorteoUno" />
     <activity android:label="Ticket" android:name="md5215426faa127788568430db30409ee4d.Ticket" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Lotery.Lotery.mono.MonoRuntimeProvider.__mono_init__" />
   </application>

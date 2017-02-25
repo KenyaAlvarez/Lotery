@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light">
+    android:background="@drawable/bg_pronosticos_3">
     <TextView
         android:id="@+id/title_sort_six"
         android:layout_width="250dp"
@@ -10,7 +10,7 @@
         android:text="Selecciona 5 numeros:"
         android:textSize="20dp"
         android:gravity="center"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="75dp"
         android:layout_marginLeft="30dp"
         android:textColor="@android:color/background_light" />
     <TextView
@@ -22,7 +22,7 @@
         android:textSize="30dp"
         android:layout_marginLeft="25dp"
         android:gravity="center"
-        android:layout_marginTop="75dp" />
+        android:layout_marginTop="150dp" />
     <TextView
         android:id="@+id/text_2_s6"
         android:text="00"
@@ -31,7 +31,7 @@
         android:layout_width="50dp"
         android:textSize="30dp"
         android:layout_marginLeft="80dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="150dp"
         android:gravity="center" />
     <TextView
         android:id="@+id/text_3_s6"
@@ -42,7 +42,7 @@
         android:textSize="30dp"
         android:layout_marginLeft="135dp"
         android:gravity="center"
-        android:layout_marginTop="75dp" />
+        android:layout_marginTop="150dp" />
     <TextView
         android:id="@+id/text_4_s6"
         android:text="00"
@@ -50,7 +50,7 @@
         android:layout_height="50dp"
         android:layout_width="50dp"
         android:textSize="30sp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="150dp"
         android:layout_marginLeft="190dp"
         android:gravity="center" />
     <TextView
@@ -60,7 +60,7 @@
         android:layout_height="50dp"
         android:layout_width="50dp"
         android:textSize="30sp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="150dp"
         android:gravity="center"
         android:layout_marginLeft="245dp" />
 <!--Number Pickers-->
@@ -68,32 +68,32 @@
         android:id="@+id/pickeruno_s6"
         android:layout_width="50dp"
         android:layout_height="100dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="250dp"
         android:layout_marginLeft="25dp" />
     <NumberPicker
         android:id="@+id/pickerdos_s6"
         android:layout_width="50dp"
         android:layout_height="100dp"
         android:layout_marginLeft="80dp"
-        android:layout_marginTop="150dp" />
+        android:layout_marginTop="250dp" />
     <NumberPicker
         android:id="@+id/pickertres_s6"
         android:layout_width="50dp"
         android:layout_height="100dp"
         android:layout_marginLeft="135dp"
-        android:layout_marginTop="150dp" />
+        android:layout_marginTop="250dp" />
     <NumberPicker
         android:id="@+id/pickercuatro_s6"
         android:layout_width="50dp"
         android:layout_height="100dp"
         android:layout_marginLeft="190dp"
-        android:layout_marginTop="150dp" />
+        android:layout_marginTop="250dp" />
     <NumberPicker
         android:id="@+id/pickercinco_s6"
         android:layout_width="50dp"
         android:layout_height="100dp"
         android:layout_marginLeft="245dp"
-        android:layout_marginTop="150dp" />
+        android:layout_marginTop="250dp" />
     <Button
         android:id="@+id/confirm_s6"
         android:hint="Confirm"
@@ -101,7 +101,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="300dp"
-        android:background="@android:color/holo_red_light"
-        android:textColor="@android:color/background_light" />
+        android:layout_marginTop="370dp"
+        android:background= "@drawable/btn_lotery_submit"/>
 </RelativeLayout>

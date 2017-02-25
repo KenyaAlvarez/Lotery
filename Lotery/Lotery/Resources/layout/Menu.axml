@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray">
+    android:background="@drawable/background_loteria_3">
     <TextView
         android:layout_width="match_parent"
         android:id="@+id/menu"
@@ -11,24 +11,24 @@
         android:textSize="15sp"
         android:layout_height="wrap_content" />
     <Button
-        android:text="Sorteo Especial"
         android:id="@+id/btn_1"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="25dp" />
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/btn_special" />
     <Button
-        android:text="Sorteo Magno"
         android:id="@+id/btn_2"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="175dp" />
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="175dp"
+        android:background="@drawable/btn_magno" />
     <Button
-        android:text="Sorteo Mayor"
         android:id="@+id/btn_3"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="175dp"
-        android:layout_marginLeft="25dp" />
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/btn_mayor" />
 </RelativeLayout>

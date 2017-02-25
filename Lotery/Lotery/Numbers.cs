@@ -42,8 +42,8 @@ namespace Lotery
         {
             string no_ticky = FindViewById<TextView>(Resource.Id.numeros).Text;
             Intent intent = new Intent(this, typeof(Ticket));
+            intent.PutExtra("n_to_ticket", no_ticky);
             StartActivityForResult(intent,0);
-            intent.PutExtra("n_to_ticket",no_ticky);
             Finish();
         }
 

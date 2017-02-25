@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_light">
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView1"
+        android:src="@drawable/bg_start"
+        android:scaleType="fitXY" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="70dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_loteria"
+        android:layout_marginTop="20dp" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="70dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_pronosticos"
+        android:layout_marginTop="100dp" />
     <EditText
         android:id="@+id/usuario"
         android:hint="Usuario"
         android:layout_width="225dp"
         android:layout_height="50dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="200dp"
         android:gravity="center"
         android:ellipsize="none"
-        android:background="@android:color/background_light"
+        android:background="@drawable/txtbox"
         android:textColor="@android:color/black"
         android:layout_marginLeft="50dp" />
     <EditText
@@ -20,20 +39,19 @@
         android:layout_width="225dp"
         android:layout_height="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="270dp"
         android:gravity="center"
         android:password="true"
-        android:background="@android:color/background_light"
+        android:background="@drawable/txtbox"
         android:ellipsize="none"
         android:textColor="@android:color/black" />
     <Button
         android:id="@+id/access"
-        android:text="Ingresar"
-        android:layout_width="100dp"
+        android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="120dp"
+        android:layout_marginLeft="100dp"
         android:textSize="20sp"
         android:gravity="center"
-        android:background="@android:color/holo_green_light"
-        android:layout_marginTop="250dp" />
+        android:background="@drawable/btn_signin"
+        android:layout_marginTop="350dp" />
 </RelativeLayout>

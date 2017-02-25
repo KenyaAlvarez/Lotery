@@ -27,11 +27,10 @@ namespace Lotery
             TextView Boleto = FindViewById<TextView>(Resource.Id.boleto);
             TextView Combinacion = FindViewById<TextView>(Resource.Id.combinacion);
 
-            Nombre.Text = "Usuario Registrado";
+            Nombre.Text = "Rafael Gomez";
 
-            Combinacion.Text = Intent.GetStringExtra("n_to_ticket");
+            Combinacion.Text = Intent.GetStringExtra("n_to_ticket").ToString();
 
-            Combinacion.Text = Intent.GetStringExtra("user");
             string diaHoy = DateTime.Now.Day.ToString();
             string mesHoy = DateTime.Now.Month.ToString();
             string añoHoy = DateTime.Now.Year.ToString();
@@ -39,13 +38,15 @@ namespace Lotery
             string fechaCompleta = diaHoy + " - " + mesHoy + " - " + añoHoy;
             Fecha.Text = fechaCompleta;
 
-            Random rnd_boleto = new Random();
-            rnd_boleto.Next(12345678, 98765433);
-            Random rnd_sorteo = new Random();
-            rnd_boleto.Next(12345678, 98765433);
+            Boleto.Text = "98765433";
+            Sorteo.Text = "12345678";
 
-            Boleto.Text = rnd_boleto.ToString();
-            Sorteo.Text = rnd_sorteo.ToString();
+            Button btn_quit = FindViewById<Button>(Resource.Id.btnhecho);
+
+            btn_quit.Click += delegate
+              {
+                  Finish();
+              };
         }
     }
 }

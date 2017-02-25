@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Lotery
 {
-    [Activity(Label = "SorteoCinco")]
+    [Activity(Label = "Melate")]
     public class SorteoCinco : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -23,11 +23,17 @@ namespace Lotery
 
             SetContentView(Resource.Layout.Sort5);
 
-            NumberPicker picker_one_s5 = FindViewById<NumberPicker>(Resource.Id.pickeruno_s5);
-            NumberPicker picker_two_s5 = FindViewById<NumberPicker>(Resource.Id.pickerdos_s5);
-            NumberPicker picker_three_s5 = FindViewById<NumberPicker>(Resource.Id.pickertres_s5);
-            NumberPicker picker_four_s5 = FindViewById<NumberPicker>(Resource.Id.pickercuatro_s5);
-            NumberPicker picker_five_s5 = FindViewById<NumberPicker>(Resource.Id.pickercinco_s5);
+            var picker_one_s5 = FindViewById<NumberPicker>(Resource.Id.pickeruno_s5);
+            var picker_two_s5 = FindViewById<NumberPicker>(Resource.Id.pickerdos_s5);
+            var picker_three_s5 = FindViewById<NumberPicker>(Resource.Id.pickertres_s5);
+            var picker_four_s5 = FindViewById<NumberPicker>(Resource.Id.pickercuatro_s5);
+            var picker_five_s5 = FindViewById<NumberPicker>(Resource.Id.pickercinco_s5);
+
+            var n_one = FindViewById<TextView>(Resource.Id.text_1_s5);
+            var n_two = FindViewById<TextView>(Resource.Id.text_2_s5);
+            var n_three = FindViewById<TextView>(Resource.Id.text_3_s5);
+            var n_for = FindViewById<TextView>(Resource.Id.text_4_s5);
+            var n_five = FindViewById<TextView>(Resource.Id.text_5_s5);
 
             picker_one_s5.MinValue = 1;
             picker_one_s5.MaxValue = 52;
@@ -39,12 +45,6 @@ namespace Lotery
             picker_four_s5.MaxValue = 52;
             picker_five_s5.MinValue = 1;
             picker_five_s5.MaxValue = 52;
-
-            TextView n_one = FindViewById<TextView>(Resource.Id.text_1_s5);
-            TextView n_two = FindViewById<TextView>(Resource.Id.text_2_s5);
-            TextView n_three = FindViewById<TextView>(Resource.Id.text_3_s5);
-            TextView n_for = FindViewById<TextView>(Resource.Id.text_4_s5);
-            TextView n_five = FindViewById<TextView>(Resource.Id.text_5_s5);
 
             picker_one_s5.ValueChanged += (sender, args) =>
             {

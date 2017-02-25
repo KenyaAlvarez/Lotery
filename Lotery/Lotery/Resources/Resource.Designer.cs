@@ -45,7 +45,76 @@ namespace Lotery
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int icon = 2130837504;
+			public const int background_2 = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int background_loteria_3 = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int bg_chispazo = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int bg_pronosticos_3 = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int bg_start = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int bnt_melate = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int btn_chispazo = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int btn_de10 = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int btn_lotery_submit = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int btn_magno = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int btn_mayor = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int btn_progol = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int btn_protouch = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int btn_retro = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int btn_seleccion_pronosticos = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int btn_signin = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int btn_special = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int btn_superior = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int btn_tris = 2130837522;
+			
+			// aapt resource value: 0x7f020013
+			public const int btn_zodiaco = 2130837523;
+			
+			// aapt resource value: 0x7f020014
+			public const int icon = 2130837524;
+			
+			// aapt resource value: 0x7f020015
+			public const int img_loteria = 2130837525;
+			
+			// aapt resource value: 0x7f020016
+			public const int img_pronosticos = 2130837526;
+			
+			// aapt resource value: 0x7f020017
+			public const int txtbox = 2130837527;
 			
 			static Drawable()
 			{
@@ -63,11 +132,11 @@ namespace Lotery
 			// aapt resource value: 0x7f050000
 			public const int Title = 2131034112;
 			
-			// aapt resource value: 0x7f050016
-			public const int access = 2131034134;
+			// aapt resource value: 0x7f050017
+			public const int access = 2131034135;
 			
-			// aapt resource value: 0x7f050011
-			public const int boleto = 2131034129;
+			// aapt resource value: 0x7f050012
+			public const int boleto = 2131034130;
 			
 			// aapt resource value: 0x7f050008
 			public const int btn_1 = 2131034120;
@@ -87,8 +156,8 @@ namespace Lotery
 			// aapt resource value: 0x7f05000d
 			public const int btn_6 = 2131034125;
 			
-			// aapt resource value: 0x7f050013
-			public const int btnhecho = 2131034131;
+			// aapt resource value: 0x7f05000e
+			public const int btnhecho = 2131034126;
 			
 			// aapt resource value: 0x7f050006
 			public const int button_LNacional = 2131034118;
@@ -96,29 +165,32 @@ namespace Lotery
 			// aapt resource value: 0x7f050005
 			public const int button_pronosticos = 2131034117;
 			
-			// aapt resource value: 0x7f050012
-			public const int combinacion = 2131034130;
+			// aapt resource value: 0x7f050013
+			public const int combinacion = 2131034131;
 			
-			// aapt resource value: 0x7f050022
-			public const int confirm_s1 = 2131034146;
+			// aapt resource value: 0x7f050023
+			public const int confirm_s1 = 2131034147;
 			
-			// aapt resource value: 0x7f05002e
-			public const int confirm_s2 = 2131034158;
+			// aapt resource value: 0x7f05002f
+			public const int confirm_s2 = 2131034159;
 			
-			// aapt resource value: 0x7f05003a
-			public const int confirm_s3 = 2131034170;
+			// aapt resource value: 0x7f05003b
+			public const int confirm_s3 = 2131034171;
 			
-			// aapt resource value: 0x7f050046
-			public const int confirm_s4 = 2131034182;
+			// aapt resource value: 0x7f050047
+			public const int confirm_s4 = 2131034183;
 			
-			// aapt resource value: 0x7f050052
-			public const int confirm_s5 = 2131034194;
+			// aapt resource value: 0x7f050053
+			public const int confirm_s5 = 2131034195;
 			
-			// aapt resource value: 0x7f05005e
-			public const int confirm_s6 = 2131034206;
+			// aapt resource value: 0x7f05005f
+			public const int confirm_s6 = 2131034207;
 			
-			// aapt resource value: 0x7f050010
-			public const int fecha = 2131034128;
+			// aapt resource value: 0x7f050011
+			public const int fecha = 2131034129;
+			
+			// aapt resource value: 0x7f050014
+			public const int imageView1 = 2131034132;
 			
 			// aapt resource value: 0x7f050007
 			public const int menu = 2131034119;
@@ -126,8 +198,8 @@ namespace Lotery
 			// aapt resource value: 0x7f050004
 			public const int no = 2131034116;
 			
-			// aapt resource value: 0x7f05000e
-			public const int nombre = 2131034126;
+			// aapt resource value: 0x7f05000f
+			public const int nombre = 2131034127;
 			
 			// aapt resource value: 0x7f050001
 			public const int numbers = 2131034113;
@@ -135,215 +207,215 @@ namespace Lotery
 			// aapt resource value: 0x7f050002
 			public const int numeros = 2131034114;
 			
-			// aapt resource value: 0x7f050015
-			public const int pass = 2131034133;
+			// aapt resource value: 0x7f050016
+			public const int pass = 2131034134;
+			
+			// aapt resource value: 0x7f050022
+			public const int picker_cinco_s1 = 2131034146;
 			
 			// aapt resource value: 0x7f050021
-			public const int picker_cinco_s1 = 2131034145;
-			
-			// aapt resource value: 0x7f050020
-			public const int picker_cuatro_s1 = 2131034144;
-			
-			// aapt resource value: 0x7f05001e
-			public const int picker_dos_s1 = 2131034142;
+			public const int picker_cuatro_s1 = 2131034145;
 			
 			// aapt resource value: 0x7f05001f
-			public const int picker_tres_s1 = 2131034143;
+			public const int picker_dos_s1 = 2131034143;
 			
-			// aapt resource value: 0x7f05001d
-			public const int picker_uno_s1 = 2131034141;
+			// aapt resource value: 0x7f050020
+			public const int picker_tres_s1 = 2131034144;
+			
+			// aapt resource value: 0x7f05001e
+			public const int picker_uno_s1 = 2131034142;
+			
+			// aapt resource value: 0x7f05002e
+			public const int pickercinco_s2 = 2131034158;
+			
+			// aapt resource value: 0x7f05003a
+			public const int pickercinco_s3 = 2131034170;
+			
+			// aapt resource value: 0x7f050046
+			public const int pickercinco_s4 = 2131034182;
+			
+			// aapt resource value: 0x7f050052
+			public const int pickercinco_s5 = 2131034194;
+			
+			// aapt resource value: 0x7f05005e
+			public const int pickercinco_s6 = 2131034206;
 			
 			// aapt resource value: 0x7f05002d
-			public const int pickercinco_s2 = 2131034157;
+			public const int pickercuatro_s2 = 2131034157;
 			
 			// aapt resource value: 0x7f050039
-			public const int pickercinco_s3 = 2131034169;
+			public const int pickercuatro_s3 = 2131034169;
 			
 			// aapt resource value: 0x7f050045
-			public const int pickercinco_s4 = 2131034181;
+			public const int pickercuatro_s4 = 2131034181;
 			
 			// aapt resource value: 0x7f050051
-			public const int pickercinco_s5 = 2131034193;
+			public const int pickercuatro_s5 = 2131034193;
 			
 			// aapt resource value: 0x7f05005d
-			public const int pickercinco_s6 = 2131034205;
-			
-			// aapt resource value: 0x7f05002c
-			public const int pickercuatro_s2 = 2131034156;
-			
-			// aapt resource value: 0x7f050038
-			public const int pickercuatro_s3 = 2131034168;
-			
-			// aapt resource value: 0x7f050044
-			public const int pickercuatro_s4 = 2131034180;
-			
-			// aapt resource value: 0x7f050050
-			public const int pickercuatro_s5 = 2131034192;
-			
-			// aapt resource value: 0x7f05005c
-			public const int pickercuatro_s6 = 2131034204;
-			
-			// aapt resource value: 0x7f05002a
-			public const int pickerdos_s2 = 2131034154;
-			
-			// aapt resource value: 0x7f050036
-			public const int pickerdos_s3 = 2131034166;
-			
-			// aapt resource value: 0x7f050042
-			public const int pickerdos_s4 = 2131034178;
-			
-			// aapt resource value: 0x7f05004e
-			public const int pickerdos_s5 = 2131034190;
-			
-			// aapt resource value: 0x7f05005a
-			public const int pickerdos_s6 = 2131034202;
+			public const int pickercuatro_s6 = 2131034205;
 			
 			// aapt resource value: 0x7f05002b
-			public const int pickertres_s2 = 2131034155;
+			public const int pickerdos_s2 = 2131034155;
 			
 			// aapt resource value: 0x7f050037
-			public const int pickertres_s3 = 2131034167;
+			public const int pickerdos_s3 = 2131034167;
 			
 			// aapt resource value: 0x7f050043
-			public const int pickertres_s4 = 2131034179;
+			public const int pickerdos_s4 = 2131034179;
 			
 			// aapt resource value: 0x7f05004f
-			public const int pickertres_s5 = 2131034191;
+			public const int pickerdos_s5 = 2131034191;
 			
 			// aapt resource value: 0x7f05005b
-			public const int pickertres_s6 = 2131034203;
+			public const int pickerdos_s6 = 2131034203;
 			
-			// aapt resource value: 0x7f050029
-			public const int pickeruno_s2 = 2131034153;
+			// aapt resource value: 0x7f05002c
+			public const int pickertres_s2 = 2131034156;
 			
-			// aapt resource value: 0x7f050035
-			public const int pickeruno_s3 = 2131034165;
+			// aapt resource value: 0x7f050038
+			public const int pickertres_s3 = 2131034168;
 			
-			// aapt resource value: 0x7f050041
-			public const int pickeruno_s4 = 2131034177;
+			// aapt resource value: 0x7f050044
+			public const int pickertres_s4 = 2131034180;
 			
-			// aapt resource value: 0x7f05004d
-			public const int pickeruno_s5 = 2131034189;
+			// aapt resource value: 0x7f050050
+			public const int pickertres_s5 = 2131034192;
 			
-			// aapt resource value: 0x7f050059
-			public const int pickeruno_s6 = 2131034201;
+			// aapt resource value: 0x7f05005c
+			public const int pickertres_s6 = 2131034204;
+			
+			// aapt resource value: 0x7f05002a
+			public const int pickeruno_s2 = 2131034154;
+			
+			// aapt resource value: 0x7f050036
+			public const int pickeruno_s3 = 2131034166;
+			
+			// aapt resource value: 0x7f050042
+			public const int pickeruno_s4 = 2131034178;
+			
+			// aapt resource value: 0x7f05004e
+			public const int pickeruno_s5 = 2131034190;
+			
+			// aapt resource value: 0x7f05005a
+			public const int pickeruno_s6 = 2131034202;
 			
 			// aapt resource value: 0x7f050003
 			public const int si = 2131034115;
 			
-			// aapt resource value: 0x7f05000f
-			public const int sorteo = 2131034127;
-			
-			// aapt resource value: 0x7f050018
-			public const int text_1_s1 = 2131034136;
-			
-			// aapt resource value: 0x7f050024
-			public const int text_1_s2 = 2131034148;
-			
-			// aapt resource value: 0x7f050030
-			public const int text_1_s3 = 2131034160;
-			
-			// aapt resource value: 0x7f05003c
-			public const int text_1_s4 = 2131034172;
-			
-			// aapt resource value: 0x7f050048
-			public const int text_1_s5 = 2131034184;
-			
-			// aapt resource value: 0x7f050054
-			public const int text_1_s6 = 2131034196;
+			// aapt resource value: 0x7f050010
+			public const int sorteo = 2131034128;
 			
 			// aapt resource value: 0x7f050019
-			public const int text_2_s1 = 2131034137;
+			public const int text_1_s1 = 2131034137;
 			
 			// aapt resource value: 0x7f050025
-			public const int text_2_s2 = 2131034149;
+			public const int text_1_s2 = 2131034149;
 			
 			// aapt resource value: 0x7f050031
-			public const int text_2_s3 = 2131034161;
+			public const int text_1_s3 = 2131034161;
 			
 			// aapt resource value: 0x7f05003d
-			public const int text_2_s4 = 2131034173;
+			public const int text_1_s4 = 2131034173;
 			
 			// aapt resource value: 0x7f050049
-			public const int text_2_s5 = 2131034185;
+			public const int text_1_s5 = 2131034185;
 			
 			// aapt resource value: 0x7f050055
-			public const int text_2_s6 = 2131034197;
+			public const int text_1_s6 = 2131034197;
 			
 			// aapt resource value: 0x7f05001a
-			public const int text_3_s1 = 2131034138;
+			public const int text_2_s1 = 2131034138;
 			
 			// aapt resource value: 0x7f050026
-			public const int text_3_s2 = 2131034150;
+			public const int text_2_s2 = 2131034150;
 			
 			// aapt resource value: 0x7f050032
-			public const int text_3_s3 = 2131034162;
+			public const int text_2_s3 = 2131034162;
 			
 			// aapt resource value: 0x7f05003e
-			public const int text_3_s4 = 2131034174;
+			public const int text_2_s4 = 2131034174;
 			
 			// aapt resource value: 0x7f05004a
-			public const int text_3_s5 = 2131034186;
+			public const int text_2_s5 = 2131034186;
 			
 			// aapt resource value: 0x7f050056
-			public const int text_3_s6 = 2131034198;
+			public const int text_2_s6 = 2131034198;
 			
 			// aapt resource value: 0x7f05001b
-			public const int text_4_s1 = 2131034139;
+			public const int text_3_s1 = 2131034139;
 			
 			// aapt resource value: 0x7f050027
-			public const int text_4_s2 = 2131034151;
+			public const int text_3_s2 = 2131034151;
 			
 			// aapt resource value: 0x7f050033
-			public const int text_4_s3 = 2131034163;
+			public const int text_3_s3 = 2131034163;
 			
 			// aapt resource value: 0x7f05003f
-			public const int text_4_s4 = 2131034175;
+			public const int text_3_s4 = 2131034175;
 			
 			// aapt resource value: 0x7f05004b
-			public const int text_4_s5 = 2131034187;
+			public const int text_3_s5 = 2131034187;
 			
 			// aapt resource value: 0x7f050057
-			public const int text_4_s6 = 2131034199;
+			public const int text_3_s6 = 2131034199;
 			
 			// aapt resource value: 0x7f05001c
-			public const int text_5_s1 = 2131034140;
+			public const int text_4_s1 = 2131034140;
 			
 			// aapt resource value: 0x7f050028
-			public const int text_5_s2 = 2131034152;
+			public const int text_4_s2 = 2131034152;
 			
 			// aapt resource value: 0x7f050034
-			public const int text_5_s3 = 2131034164;
+			public const int text_4_s3 = 2131034164;
 			
 			// aapt resource value: 0x7f050040
-			public const int text_5_s4 = 2131034176;
+			public const int text_4_s4 = 2131034176;
 			
 			// aapt resource value: 0x7f05004c
-			public const int text_5_s5 = 2131034188;
+			public const int text_4_s5 = 2131034188;
 			
 			// aapt resource value: 0x7f050058
-			public const int text_5_s6 = 2131034200;
+			public const int text_4_s6 = 2131034200;
 			
-			// aapt resource value: 0x7f050047
-			public const int title_sort_five = 2131034183;
+			// aapt resource value: 0x7f05001d
+			public const int text_5_s1 = 2131034141;
 			
-			// aapt resource value: 0x7f05003b
-			public const int title_sort_four = 2131034171;
+			// aapt resource value: 0x7f050029
+			public const int text_5_s2 = 2131034153;
 			
-			// aapt resource value: 0x7f050017
-			public const int title_sort_one = 2131034135;
+			// aapt resource value: 0x7f050035
+			public const int text_5_s3 = 2131034165;
 			
-			// aapt resource value: 0x7f050053
-			public const int title_sort_six = 2131034195;
+			// aapt resource value: 0x7f050041
+			public const int text_5_s4 = 2131034177;
 			
-			// aapt resource value: 0x7f05002f
-			public const int title_sort_three = 2131034159;
+			// aapt resource value: 0x7f05004d
+			public const int text_5_s5 = 2131034189;
 			
-			// aapt resource value: 0x7f050023
-			public const int title_sort_two = 2131034147;
+			// aapt resource value: 0x7f050059
+			public const int text_5_s6 = 2131034201;
 			
-			// aapt resource value: 0x7f050014
-			public const int usuario = 2131034132;
+			// aapt resource value: 0x7f050048
+			public const int title_sort_five = 2131034184;
+			
+			// aapt resource value: 0x7f05003c
+			public const int title_sort_four = 2131034172;
+			
+			// aapt resource value: 0x7f050018
+			public const int title_sort_one = 2131034136;
+			
+			// aapt resource value: 0x7f050054
+			public const int title_sort_six = 2131034196;
+			
+			// aapt resource value: 0x7f050030
+			public const int title_sort_three = 2131034160;
+			
+			// aapt resource value: 0x7f050024
+			public const int title_sort_two = 2131034148;
+			
+			// aapt resource value: 0x7f050015
+			public const int usuario = 2131034133;
 			
 			static Id()
 			{

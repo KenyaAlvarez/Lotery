@@ -3,25 +3,23 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_light">
+    android:background="@drawable/background_2">
     <Button
         android:id="@+id/button_pronosticos"
-        android:text="Pronosticos"
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:layout_gravity="center"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:layout_marginTop="150dp"
-        android:background="@android:color/holo_red_light" />
+        android:layout_marginTop="250dp"
+        android:background="@drawable/img_pronosticos" />
     <Button
         android:id="@+id/button_LNacional"
-        android:text="Loteria Nacional"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:layout_marginTop="50dp"
-        android:background="@android:color/holo_red_light" />
+        android:layout_marginTop="100dp"
+        android:background="@drawable/img_loteria" />
 </RelativeLayout>

@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Lotery
 {
-    [Activity(Label = "SorteoDos")]
+    [Activity(Label = "Sorteo Magno")]
     public class SorteoDos : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
