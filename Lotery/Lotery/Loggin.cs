@@ -28,6 +28,7 @@ namespace Lotery
             password.InputType = Android.Text.InputTypes.TextVariationPassword | Android.Text.InputTypes.ClassText;
 
             Button btn = FindViewById<Button>(Resource.Id.access);
+
             btn.Click += delegate
             {
                 StartActivity(typeof(Options));

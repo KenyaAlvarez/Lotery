@@ -89,8 +89,6 @@ namespace Lotery
                 StartActivity(intent);
                 Finish();
             };
-
-
         }
     }
 }

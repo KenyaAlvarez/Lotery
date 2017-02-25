@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray">
+    android:background="@android:color/holo_orange_light">
     <TextView
         android:layout_width="match_parent"
         android:id="@+id/menu"
@@ -12,22 +11,22 @@
         android:textSize="15sp"
         android:layout_height="wrap_content" />
     <Button
-        android:text="Sorteo Especial"
-        android:id="@+id/btn"
+        android:text="Melate Retro"
+        android:id="@+id/btn_4"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="25dp" />
     <Button
-        android:text="Sorteo Mayor"
-        android:id="@+id/btnL2"
+        android:text="Melate"
+        android:id="@+id/btn_5"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="175dp" />
     <Button
-        android:text="Sorteo Mayor"
-        android:id="@+id/btnL3"
+        android:text="Chispazo"
+        android:id="@+id/btn_6"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="175dp"

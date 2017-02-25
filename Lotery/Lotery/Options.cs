@@ -14,14 +14,15 @@ namespace Lotery
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Inicio);
 
-            Button buton = FindViewById<Button>(Resource.Id.button_LNacional);
-            buton.Click += delegate
+            Button button = FindViewById<Button>(Resource.Id.button_LNacional);
+            Button button2 = FindViewById<Button>(Resource.Id.button_pronosticos);
+
+            button.Click += delegate
             {
                 StartActivity(typeof(MainSort));
             };
 
-            Button butn = FindViewById<Button>(Resource.Id.button_pronosticos);
-            butn.Click += delegate
+            button2.Click += delegate
             {
                 StartActivity(typeof(SecondSort));
             };
